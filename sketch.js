@@ -19,7 +19,7 @@ function setup() {
 
 function draw() {
   background(140, 118, 109);
-  ellipse(mouseX,mouseY,value,value);
+  
   fill(0);
   
  
