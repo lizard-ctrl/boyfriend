@@ -1,0 +1,232 @@
+@font-face {
+    font-family: 'Trick';
+    src:  url('https://cdn.glitch.global/071398af-0cc8-4657-b1b0-bae3fdb05a06/trick.ttf?v=1707703999434') format('ttf');
+  }
+
+  .almendra-regular {
+    font-family: "Almendra", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .almendra-bold {
+    font-family: "Almendra", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .almendra-regular-italic {
+    font-family: "Almendra", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .almendra-bold-italic {
+    font-family: "Almendra", serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .almendra-display-regular {
+    font-family: "Almendra Display", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+body{
+    background-color: rgb(179, 89, 175);
+}
+
+
+header{
+    font-family: "Almendra", regular, serif;
+    position: relative;
+    width: 20%;
+    left: 5%;
+    font-size:60px;
+    color: rgb(170, 170, 179);
+    text-align: left;
+    align-items: center;
+}
+
+header img{
+  width: 250%;
+  object-fit: contain;
+}
+
+
+
+#special{
+  color: rgb(170, 170, 179);
+  background-color: rgb(170, 170, 179);
+}
+
+#info{
+  position: absolute;
+    top: 22%;
+    left: 5%;
+    width: 20%;
+    height: 30%;
+    padding: 1%;
+    border-radius: 20%;
+    border-color: rgb(69,87,164);
+    border: solid 4px rgb(69,87,164);
+    
+    overflow: scroll;
+    z-index: 1000;
+}
+
+p{
+  color: rgb(170, 170, 179);
+}
+
+#words{
+   padding: 3%;
+    position: absolute;
+    top: 15%;
+    left: 30%;
+    width: 60%;
+    height: 60%;
+    
+    border-radius: 20%;
+    
+    overflow: scroll;
+    z-index: 1000;
+}
+
+#writing{
+font-size: 22px;
+}
+
+p{
+  font-size: 22px;
+}
+
+#bio{
+    font-family: "Almendra", serif;
+    font-size: 22px; 
+}
+
+
+.banner-container-two {
+    position: absolute;
+    top: 90%;
+    width: 100%; /* Adjust as needed */
+    overflow: hidden;
+  }
+  
+  
+  .banner-image {
+    width: auto; /* Adjust as needed */
+    animation: scrollBanner 20s linear infinite;
+  }
+  
+  @keyframes scrollBanner {
+    0% {
+      transform: translateX(-10%);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+
+
+  .banner-image-two {
+    width: auto; /* Adjust as needed */
+    animation: scrollBannerTwo 20s linear infinite;
+  }
+  
+  @keyframes scrollBannerTwo {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-20%);
+    }
+  }
+
+
+    @media only screen and (max-device-width: 500px) {
+
+      header{
+        font-family: "Almendra", regular, serif;
+        font-size:80px;
+        padding: 2%;
+        text-align: center;
+    }
+
+      #info{
+        position: absolute;
+          top: 8%;
+          left: 8%;
+          width: 80%;
+          height: 13%;
+          padding: 1%;
+          border-radius: 10% 10% 10% 10%;
+          border-color: rgb(69,87,164);
+          border: solid 4px rgb(69,87,164);
+          
+          overflow: scroll;
+          z-index: 1000;
+      }
+      
+      #words{
+         padding: 3%;
+          position: absolute;
+          top: 25%;
+          left: 8%;
+          width: 80%;
+          height: 60%;
+          
+          border-radius: 20%;
+          
+          overflow: scroll;
+          z-index: 1000;
+      }
+      
+      #writing{
+      font-size: 42px;
+      }
+      
+      p{
+        font-size: 42px;
+      }
+
+      #bio{
+        font-family: "Almendra Display", serif;
+        font-size: 42px; 
+    }
+
+    header{
+      font-family: "Almendra", regular, serif;
+      position: relative;
+      width: 20%;
+      left: 5%;
+      font-size:60px;
+      color: rgb(170, 170, 179);
+      text-align: left;
+      align-items: center;
+  }
+  
+  header img{
+    width: 420%;
+    object-fit: contain;
+  }
+
+
+    .banner-container-two {
+      position: absolute;
+      top: 90%;
+      width: 100%; /* Adjust as needed */
+      overflow: hidden;
+    }
+    
+    
+    .banner-image-two {
+      width: 500%; /* Adjust as needed */
+      animation: scrollBannerTwo 20s linear infinite;
+    }
+
+    }
+  
