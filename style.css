@@ -573,7 +573,6 @@ p{
       }
 
       #headerOne{
-        display: none;
         font-family: "Almendra", regular, serif;
         position: relative;
         width: 20%;
@@ -584,7 +583,7 @@ p{
     }
 
     #headerTwo{
-      display: block;
+      display: none;
     }
     
    
