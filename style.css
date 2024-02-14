@@ -575,8 +575,8 @@ p{
       #headerOne{
         font-family: "Almendra", regular, serif;
         position: relative;
-        width: 20%;
-        left: 5%;
+        width: 100%;
+        left: 2%;
         font-size:60px;
         color: rgb(170, 170, 179);
         text-align: left;
