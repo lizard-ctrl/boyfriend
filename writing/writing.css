@@ -115,6 +115,15 @@ p{
     width: 100%; /* Adjust as needed */
     overflow: hidden;
   }
+  a{
+    color: rgb(170, 170, 179);
+    text-decoration: none;
+   
+}
+
+a:hover{
+  color: rgb(113, 113, 141);
+}
   
   
   .banner-image {
@@ -197,6 +206,8 @@ p{
         font-family: "Almendra", serif;
         font-size: 42px; 
     }
+
+   
 
     header{
       font-family: "Almendra", regular, serif;
